@@ -20,7 +20,7 @@ document.addEventListener("mousemove", (e) => {
   const moveY = yPercent * 50; // Adjust multiplier for vertical intensity
 
   // Update the box shadow dynamically for the card
-  card.forEach((box) => {
-    box.style.boxShadow = `${moveX}px ${moveY}px 10px rgba(255, 255, 255, 0.3)`;
+  card.forEach((cards) => {
+    cards.style.cardShadow = `${moveX}px ${moveY}px 10px rgba(255, 255, 255, 0.2)`;
   });
 });

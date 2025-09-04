@@ -72,8 +72,8 @@ header.profile-card-example-header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "html-dd css-dd js-dd"
-    "html-dt css-dt js-dt";
+    "html-dt css-dt js-dt"
+    "html-dd css-dd js-dd";
   justify-items: center;
   align-items: start;
   width: 100%;
@@ -126,7 +126,7 @@ header.profile-card-example-header {
 }
 
 /* Deze styles zijn van toepassing als je op de knop klikt */
-body.is-expanded {
+/* body.is-expanded {
   font-size: 1.15em;
 }
 
@@ -151,4 +151,4 @@ body.is-expanded .profile-card-example-dl dd {
 
 body.is-expanded .profile-card-example-img {
   width: 15em;
-}
+} */
