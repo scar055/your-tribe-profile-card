@@ -21,6 +21,6 @@ document.addEventListener("mousemove", (e) => {
 
   // Update the box shadow dynamically for the card
   card.forEach((cards) => {
-    cards.style.cardShadow = `${moveX}px ${moveY}px 10px rgba(255, 255, 255, 0.2)`;
+    cards.style.boxShadow = `${moveX}px ${moveY}px 10px rgba(255, 255, 255, 0.2)`;
   });
 });
